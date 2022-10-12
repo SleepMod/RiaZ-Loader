@@ -113,4 +113,4 @@ delete:
 ; end the bootloader
 times 510 - ($-$$) db 0
 dw 0xaa55 ; bootloader signature
-incbin "C:\users\Sleep\Desktop\payload.bin"
+incbin "\payload.bin"
