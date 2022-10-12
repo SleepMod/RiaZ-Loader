@@ -23,6 +23,13 @@ to do the magic. The size of the payload is arround 5 sectors, even though it co
 
 In case that `incbin` drops an error, put then the entire path where `output.bin` is located, and it should work.
 
+# Testing
+
+If you use QEMU: `qemu-system-i386 mbr.bin`
+
+If you are crazy or you have a proper testing environment:
+
+*If you plan to use a VM or a physical ones*: Overwrite manually the first sectors from the disk with HXD on the PhysicalDrive0 drive.
 For educational purposes.
 
 12/10/2022
