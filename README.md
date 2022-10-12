@@ -23,4 +23,6 @@ to do the magic. The size of the payload is arround 5 sectors, even though it co
 
 In case that `incbin` drops an error, put then the entire path where `output.bin` is located, and it should work.
 
+For educational purposes.
+
 12/10/2022
