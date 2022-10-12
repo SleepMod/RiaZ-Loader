@@ -6,6 +6,9 @@ https://www.youtube.com/watch?v=6hN3q62ttes
 # How it works
 The bootloader tries to find the code starting with the address 0x8000, where our bootloader resides. Its like telling "if you don't find this address", you don't load anything. Doing this we can make sure that we have our payload on, and with that, customize a little what we want the payload do.
 
+Bootloader can work also reading any 16 bits kernel/payload (RAW data) if it fits in sector number and address. Make sure it maps correctly the video memory and others,
+and you are ready to go. 
+
 In RiaZ\Pictures> You will find some pictures, the error ones, the main payload screen, and the "scrolling chess board".
 
 # Building instructions
